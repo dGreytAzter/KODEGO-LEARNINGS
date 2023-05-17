@@ -13,6 +13,9 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #68217A;
   padding: 20px;
   color: #fff;
@@ -42,7 +45,7 @@ nav ul li a {
 main {
   flex: 1;
   max-width: 800px;
-  margin: 40px auto;
+  margin: 130px auto 40px auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -129,4 +132,14 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #591d6a;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.product {
+  text-align: center;
+  margin-bottom: 50px;
 }
